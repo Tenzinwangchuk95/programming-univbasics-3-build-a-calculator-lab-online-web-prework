@@ -22,9 +22,12 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
+  modulo = num2 % num1
+  p modulo
 
 end
 
 def square_root(num)
-
+  square_root = num * num
+  p square_root
 end
